@@ -6,6 +6,7 @@ use thiserror::Error;
 mod archive;
 mod common;
 pub mod read;
+pub mod read2;
 mod tes3;
 mod tes4;
 pub mod write;

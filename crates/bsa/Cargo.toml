@@ -1,0 +1,9 @@
+[package]
+name = "bsa"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+bsa-core = { path = "../bsa-core" }
+tes4-bsa = { path = "../tes4-bsa" }
+fo4-ba2 = { path = "../fo4-ba2" }

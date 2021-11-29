@@ -1,0 +1,9 @@
+[package]
+name = "bsa-core"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+bytemuck = "1.7"
+thiserror = "1.0"
+windows-1252 = { path = "../windows-1252" }

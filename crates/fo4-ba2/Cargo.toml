@@ -1,0 +1,13 @@
+[package]
+name = "fo4-ba2"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+thiserror = "1.0"
+bytemuck = { version = "1.7", features = ["extern_crate_std", "derive"] }
+flate2 = { version = "1.0", default-features = false, features = [
+    "zlib-ng-compat",
+] }
+smallvec = { version = "1.7.0", features = ["union"] }
+windows-1252 = { path = "../windows-1252" }
